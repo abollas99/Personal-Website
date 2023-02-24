@@ -1,0 +1,86 @@
+.flex-container {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-items {
+    margin: 3em;
+}
+
+.image-adjustment {
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+    height: auto;
+    max-width: 20%;
+    min-width: 12em;
+    border: 2px solid black;
+    margin-top: 2em;
+}
+
+.background-image-adjustment {
+    height: auto;
+    max-width: 100%;
+    padding: 2%;
+    background-image:url(bg.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    background-color:lightgrey;
+}
+
+.text-box {  
+    background-color: lightblue;
+    width: 80%;
+    max-width: 50em;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.navbar-adjustment {
+    background-color: ;
+    background-color:#81daf8;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 2px solid #ffffff;
+    opacity: 90%;
+
+    
+}
+
+.intro {
+    font-weight: 800;
+    font-size: 3em;
+    margin: auto;
+
+}
+.edu-sec {
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.exp-sec {
+    flex: 2;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.exp-stitle {
+    font-weight: 600;
+}
+.title {
+    text-align: center;
+    background-color: white;
+    font-size: 2em;
+    font-weight: 800;
+    padding-top: 4em;
+}
