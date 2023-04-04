@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    background-color: grey;
+}
 .flex-container {
     display:flex;
     justify-content: space-between;
@@ -8,54 +12,26 @@
     margin: 3em;
 }
 
-.image-adjustment {
-    display: block;
-    margin: auto;
-    border-radius: 10%;
-    height: auto;
-    max-width: 20%;
-    min-width: 12em;
-    border: 2px solid black;
-    margin-top: 2em;
-}
-
 .background-image-adjustment {
     height: auto;
     max-width: 100%;
     padding: 2%;
-    background-image:url(bg.jpg);
+    background-image:url(../Image/bg.jpg);
     font-family:Arial, Helvetica, sans-serif;
     background-size: cover; 
     background-repeat:no-repeat; 
     background-color:lightgrey;
-}
-
-.text-box {  
-    background-color: lightblue;
-    width: 80%;
-    max-width: 50em;
-    border-radius: 50px;
-    margin: auto;
-    margin-top: 70px;
+    background-attachment:fixed;
 }
 
 .navbar-adjustment {
-    background-color: ;
     background-color:#81daf8;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom: 2px solid #ffffff;
     opacity: 90%;
-
-    
 }
 
-.intro {
-    font-weight: 800;
-    font-size: 3em;
-    margin: auto;
-
-}
 .edu-sec {
     flex-wrap: wrap;
     display:flex;
@@ -83,4 +59,22 @@
     font-size: 2em;
     font-weight: 800;
     padding-top: 4em;
+}
+.footer {
+    display: flex;
+    background-color: grey;
+    padding: 1em;
+    border-top: 3px black solid;
+}
+.footer-items {
+    color: black;
+    padding: .5em;
+}
+.footer :hover{
+    color: lightblue;
+}
+.image-edit {
+    max-width: 15em;
+    max-height: 15em;
+    margin: 4em;
 }

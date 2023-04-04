@@ -1,0 +1,42 @@
+.text-box {  
+    background-color: lightblue;
+    width: 80%;
+    max-width: 50em;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.intro{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 3em;
+    margin: auto;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 5em;
+    flex-basis: 5em;
+
+}
+.image-size {
+    max-width: 25em;
+    max-height: 25em;
+    border-radius: 2em;
+    border: 2px solid black;
+
+}
+.text-size {
+    text-align: center;
+    max-width: 20em;
+    max-height: 20em;
+    font-size: 1.15em;
+
+}

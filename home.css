@@ -1,0 +1,26 @@
+.image-adjustment {
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+    height: auto;
+    max-width: 20%;
+    min-width: 12em;
+    border: 2px solid black;
+    margin-top: 2em;
+}
+.text-box {  
+
+    background-color: lightblue;
+    width: 80%;
+    max-width: 50em;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.intro {
+    font-weight: 800;
+    font-size: 3em;
+    margin: auto;
+
+}
